@@ -23,7 +23,7 @@ app.post("/generar", async (req, res) => {
       messages: [
         {
           role: "system",
-          content: "Eres una experta en contenido UGC..."
+          content: "Eres una experta en contenido UGC. Ayudas a creadores a generar guiones para Reels, TikToks, carruseles y copys publicitarios con tono creativo y claro. Usa un lenguaje natural, cercano y actual."
         },
         { role: "user", content: prompt }
       ]
@@ -55,4 +55,4 @@ app.listen(10000, () => {
     "openai": "^4.0.0"
   }
 }
-OPENAI_API_KEY=sk-proj-tuclaveaqui
+OPENAI_API_KEY=sk-proj-tu-clave-aqui
